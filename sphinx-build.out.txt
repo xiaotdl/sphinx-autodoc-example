@@ -1,0 +1,29 @@
+Running Sphinx v1.3.6
+loading pickled environment... not yet created
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 3 source files that are out of date
+updating environment: 3 added, 0 changed, 0 removed
+reading sources... [100%] proj
+/home/xili/git/Sandbox/python/_sphinx/proj/docs/source/proj.rst:10: WARNING: autodoc: failed to import module u'proj.base'; the following exception was raised:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/sphinx/ext/autodoc.py", line 386, in import_object
+    __import__(self.modname)
+ImportError: No module named proj.base
+/home/xili/git/Sandbox/python/_sphinx/proj/docs/source/proj.rst:19: WARNING: autodoc: failed to import module u'proj'; the following exception was raised:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/sphinx/ext/autodoc.py", line 386, in import_object
+    __import__(self.modname)
+ImportError: No module named proj
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /home/xili/git/Sandbox/python/_sphinx/proj/docs/source/modules.rst:: WARNING: document isn't included in any toctree
+done
+preparing documents... done
+writing output... [100%] proj
+generating indices... genindex
+writing additional pages... search
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en) ... done
+dumping object inventory... done
+build succeeded, 3 warnings.
